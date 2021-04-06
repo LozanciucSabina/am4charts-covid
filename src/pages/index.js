@@ -40,7 +40,7 @@ const Home = () => {
         chart.dispose();
       }
     };
-  });
+  }, []);
 
   const handleCounter = () => {
     setCounter(prevState => prevState + 1);
